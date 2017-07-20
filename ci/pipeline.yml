@@ -4,7 +4,7 @@ resources:
   type: git
   source:
     uri: https://github.com/ramjikn/pcf-attendee-service-code  #<---- REPLACE ME
-    branch: master
+    branch: smoke_tests
 
 - name: deploy-attendee-service
   type: cf
